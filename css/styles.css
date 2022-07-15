@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.top-box {
+    background-color: white;
+    /* width: 700px; */
+    width: 325px;
+    padding: 25px;
+    border-radius: 7px 7px 0 0;
+   
+}
+
+.top-box h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.top-box h3 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.top-box p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+}
+
+.bottom-box {
+    color: white;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.sub {
+    padding: 25px;
+    background-color: hsl(179, 57%, 41%);
+    width: 325px;
+}
+
+.sub h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.sub p {
+    display: flex;
+    margin-bottom: 10px;
+    color: hsl(204, 43%, 93%)
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.frequency {
+    color: rgba(206, 206, 206, 0.699);
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 18px;
+}
+
+button {
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(99, 83, 83, 0.24);
+}
+
+.why {
+    padding: 25px;
+    background-color: hsl(179, 62%, 43%);
+    width: 325px;
+    border-radius: 0 0 7px 7px;
+}
+
+.why h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.why p {
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .top-box {
+        width: 650px;
+        padding: 30px;
+    }
+
+    .bottom-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sub {
+        border-radius: 0 0 0 7px;
+        padding: 30px;
+    }
+
+    .why {
+        border-radius: 0 0 7px 0;
+        padding: 30px;
+    }
+}
