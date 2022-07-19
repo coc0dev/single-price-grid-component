@@ -20,11 +20,10 @@ body {
 
 .top-box {
     background-color: white;
-    /* width: 700px; */
     width: 325px;
     padding: 25px;
     border-radius: 7px 7px 0 0;
-   
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .top-box h1 {
@@ -33,7 +32,7 @@ body {
     margin-bottom: 25px;
 }
 
-.top-box h3 {
+.top-box h2 {
     color: hsl(71, 73%, 54%);
     margin-bottom: 15px;
     font-size: 18px;
@@ -46,8 +45,8 @@ body {
 
 .bottom-box {
     color: white;
-    /* display: flex;
-    flex-direction: row; */
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 7px 7px;
 }
 
 .sub {
@@ -117,6 +116,12 @@ button {
 
 .footer a {
     text-decoration: none;
+    color:hsl(179, 57%, 41%);
+    font-weight: 700;
+}
+
+.footer a:hover {
+    color:rgba(99, 83, 83, 0.84);
 }
 
 @media only screen and (min-width: 800px) {
